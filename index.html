@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kotsuri Forum - Вхід</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <main class="container">
+    <h1>Kotsuri Forum</h1>
+
+    <section id="auth-section">
+      <h2>Увійти</h2>
+      <input type="email" id="login-email" placeholder="Email" />
+      <input type="password" id="login-password" placeholder="Пароль" />
+      <button id="login-btn">Увійти</button>
+
+      <h3>або</h3>
+
+      <h2>Реєстрація</h2>
+      <input type="email" id="signup-email" placeholder="Email" />
+      <input type="password" id="signup-password" placeholder="Пароль" />
+      <button id="signup-btn">Зареєструватись</button>
+    </section>
+
+    <section id="user-section" style="display:none;">
+      <p>Вітаємо, <span id="user-email"></span>!</p>
+      <button id="logout-btn">Вийти</button>
+      <button id="goto-forum-btn">Перейти до форуму</button>
+    </section>
+  </main>
+</body>
+</html>
